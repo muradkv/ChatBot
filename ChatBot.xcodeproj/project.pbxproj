@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FA03F29E22C16ADB00FC0179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F29D22C16ADB00FC0179 /* AppDelegate.swift */; };
-		FA03F2A022C16ADB00FC0179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F29F22C16ADB00FC0179 /* ViewController.swift */; };
 		FA03F2A322C16ADB00FC0179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA03F2A122C16ADB00FC0179 /* Main.storyboard */; };
 		FA03F2A522C16ADC00FC0179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA03F2A422C16ADC00FC0179 /* Assets.xcassets */; };
 		FA03F2A822C16ADC00FC0179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA03F2A622C16ADC00FC0179 /* LaunchScreen.storyboard */; };
+		FA03F2B322C5617700FC0179 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B222C5617700FC0179 /* ConversationCell.swift */; };
+		FA03F2B522C5618D00FC0179 /* ThinkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B422C5618D00FC0179 /* ThinkingCell.swift */; };
+		FA03F2B722C5619C00FC0179 /* AskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B622C5619C00FC0179 /* AskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA03F29A22C16ADB00FC0179 /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA03F29D22C16ADB00FC0179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA03F29F22C16ADB00FC0179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA03F2A222C16ADB00FC0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA03F2A422C16ADC00FC0179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA03F2A722C16ADC00FC0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA03F2A922C16ADC00FC0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA03F2B222C5617700FC0179 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		FA03F2B422C5618D00FC0179 /* ThinkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingCell.swift; sourceTree = "<group>"; };
+		FA03F2B622C5619C00FC0179 /* AskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		FA03F29C22C16ADB00FC0179 /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
-				FA03F29D22C16ADB00FC0179 /* AppDelegate.swift */,
-				FA03F29F22C16ADB00FC0179 /* ViewController.swift */,
-				FA03F2A122C16ADB00FC0179 /* Main.storyboard */,
+				FA03F2B122C5604400FC0179 /* UI */,
 				FA03F2A422C16ADC00FC0179 /* Assets.xcassets */,
-				FA03F2A622C16ADC00FC0179 /* LaunchScreen.storyboard */,
-				FA03F2A922C16ADC00FC0179 /* Info.plist */,
+				FA03F2B822C5620600FC0179 /* SupportFiles */,
 			);
 			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		FA03F2B122C5604400FC0179 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA03F2A122C16ADB00FC0179 /* Main.storyboard */,
+				FA03F2A622C16ADC00FC0179 /* LaunchScreen.storyboard */,
+				FA03F2B222C5617700FC0179 /* ConversationCell.swift */,
+				FA03F2B422C5618D00FC0179 /* ThinkingCell.swift */,
+				FA03F2B622C5619C00FC0179 /* AskCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FA03F2B822C5620600FC0179 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA03F29D22C16ADB00FC0179 /* AppDelegate.swift */,
+				FA03F2A922C16ADC00FC0179 /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA03F2A022C16ADB00FC0179 /* ViewController.swift in Sources */,
+				FA03F2B522C5618D00FC0179 /* ThinkingCell.swift in Sources */,
+				FA03F2B322C5617700FC0179 /* ConversationCell.swift in Sources */,
 				FA03F29E22C16ADB00FC0179 /* AppDelegate.swift in Sources */,
+				FA03F2B722C5619C00FC0179 /* AskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6D3DZE2WM;
-				INFOPLIST_FILE = ChatBot/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatBot/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6D3DZE2WM;
-				INFOPLIST_FILE = ChatBot/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatBot/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
