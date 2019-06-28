@@ -9,7 +9,9 @@
 import UIKit
 
 class AskCell: UITableViewCell {
-
+    
+    @IBOutlet var textField: UITextField!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

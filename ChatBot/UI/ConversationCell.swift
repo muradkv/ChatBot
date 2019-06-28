@@ -9,7 +9,10 @@
 import UIKit
 
 class ConversationCell: UITableViewCell {
-
+    
+    @IBOutlet var dateLabel: UILabel!
+    @IBOutlet var messageLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

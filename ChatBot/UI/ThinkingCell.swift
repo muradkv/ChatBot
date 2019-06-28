@@ -10,6 +10,8 @@ import UIKit
 
 class ThinkingCell: UITableViewCell {
 
+    @IBOutlet var thinkingImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
