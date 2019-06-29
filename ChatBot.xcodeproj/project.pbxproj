@@ -14,6 +14,7 @@
 		FA03F2B322C5617700FC0179 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B222C5617700FC0179 /* ConversationCell.swift */; };
 		FA03F2B522C5618D00FC0179 /* ThinkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B422C5618D00FC0179 /* ThinkingCell.swift */; };
 		FA03F2B722C5619C00FC0179 /* AskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B622C5619C00FC0179 /* AskCell.swift */; };
+		FA03F2BB22C7FD3400FC0179 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2BA22C7FD3400FC0179 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA03F2B222C5617700FC0179 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		FA03F2B422C5618D00FC0179 /* ThinkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingCell.swift; sourceTree = "<group>"; };
 		FA03F2B622C5619C00FC0179 /* AskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCell.swift; sourceTree = "<group>"; };
+		FA03F2BA22C7FD3400FC0179 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				FA03F2B122C5604400FC0179 /* UI */,
 				FA03F2A422C16ADC00FC0179 /* Assets.xcassets */,
+				FA03F2B922C7FD1D00FC0179 /* Model */,
 				FA03F2B822C5620600FC0179 /* SupportFiles */,
 			);
 			path = ChatBot;
@@ -84,6 +87,14 @@
 				FA03F2A922C16ADC00FC0179 /* Info.plist */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		FA03F2B922C7FD1D00FC0179 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA03F2BA22C7FD3400FC0179 /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				FA03F2B522C5618D00FC0179 /* ThinkingCell.swift in Sources */,
 				FA03F2B322C5617700FC0179 /* ConversationCell.swift in Sources */,
+				FA03F2BB22C7FD3400FC0179 /* Message.swift in Sources */,
 				FA03F29E22C16ADB00FC0179 /* AppDelegate.swift in Sources */,
 				FA03F2B722C5619C00FC0179 /* AskCell.swift in Sources */,
 			);
