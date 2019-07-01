@@ -16,6 +16,7 @@
 		FA03F2B722C5619C00FC0179 /* AskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2B622C5619C00FC0179 /* AskCell.swift */; };
 		FA03F2BB22C7FD3400FC0179 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2BA22C7FD3400FC0179 /* Message.swift */; };
 		FA03F2DB22C9541500FC0179 /* QuestionAnswerer .swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2DA22C9541500FC0179 /* QuestionAnswerer .swift */; };
+		FA03F2DD22CAA8B200FC0179 /* ConversationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2DC22CAA8B200FC0179 /* ConversationDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FA03F2B622C5619C00FC0179 /* AskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCell.swift; sourceTree = "<group>"; };
 		FA03F2BA22C7FD3400FC0179 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FA03F2DA22C9541500FC0179 /* QuestionAnswerer .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionAnswerer .swift"; sourceTree = "<group>"; };
+		FA03F2DC22CAA8B200FC0179 /* ConversationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FA03F2BA22C7FD3400FC0179 /* Message.swift */,
 				FA03F2DA22C9541500FC0179 /* QuestionAnswerer .swift */,
+				FA03F2DC22CAA8B200FC0179 /* ConversationDataSource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA03F2B522C5618D00FC0179 /* ThinkingCell.swift in Sources */,
+				FA03F2DD22CAA8B200FC0179 /* ConversationDataSource.swift in Sources */,
 				FA03F2DB22C9541500FC0179 /* QuestionAnswerer .swift in Sources */,
 				FA03F2B322C5617700FC0179 /* ConversationCell.swift in Sources */,
 				FA03F2BB22C7FD3400FC0179 /* Message.swift in Sources */,
